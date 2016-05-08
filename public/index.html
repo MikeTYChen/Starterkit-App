@@ -1,0 +1,22 @@
+<!doctype html>
+<html ng-app="myApp">
+  <head>
+    <title>Barebones App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+  </head>
+  <body>
+    <header class="header">
+    </header>
+
+    <section class="main container" ng-view></section>
+
+
+    <script src="vendor/angular/angular.min.js"></script>
+    <script src="vendor/angular-route/angular-route.min.js"></script>
+    <script src="vendor/angular-resource/angular-resource.min.js"></script>
+    <script src="app.js"></script>
+    <script src="components/home/homeCtrl.js"></script>
+  </body>
+</html>
