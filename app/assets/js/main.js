@@ -1,1 +1,3 @@
-console.log("Barebones App");
+$(document).ready(function(){
+	console.log("JQuery Loaded");
+});
