@@ -9,7 +9,7 @@ var gulp = require('gulp'),
 var path = {
 	sass:'app/assets/scss/*.scss',
 	sassOutput:'public/assets/css',
-	js:['app/components/**/*.js','app/*.js'],
+	js:['app/assets/**/*.js'],
 	jsBase:"app",
 	jsOutput:'public',
 	html:'app/**/*.html',
