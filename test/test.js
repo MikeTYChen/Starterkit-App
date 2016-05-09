@@ -1,10 +1,12 @@
-var assert = require('assert');
+var expect = require('chai').expect;
 
-describe('Array', function() {
-  describe('#indexOf()', function () {
-    it('should return -1 when the value is not present', function () {
-      assert.equal(-1, [1,2,3].indexOf(5));
-      assert.equal(-1, [1,2,3].indexOf(0));
-    });
-  });
-});
+describe("Testing Suite",function(){
+	describe("Basic Functions",function(){
+		it("expect 3 to equal 3",function(){
+			expect(3).to.equal(3);
+		})
+		it("expect 3 to not equal 4", function(){
+			expect(3).to.not.equal(4);
+		})
+	})
+})
